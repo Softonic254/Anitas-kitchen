@@ -1,0 +1,9 @@
+*{
+    font-family: serif;
+}
+
+.title{
+    background-image: url(Images/Backgrounds/landing.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}

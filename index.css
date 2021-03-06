@@ -27,26 +27,78 @@
     }
 
     .happyhrtext{
-        font-size: 40px;
-        font-weight: 400;
-        letter-spacing: 3px;
+        font-size: 30px;
+        font-weight: 300;
+        letter-spacing: 1px;
     }
 
     .HappyHour{
         background-color: lightgray;
         text-align: center;
-        padding-left: 60px;
-        padding-right: 60px;
-        padding-top: 30px;
-        padding-bottom: 28px;
+        padding-left: 90px;
+        padding-right: 90px;
+        padding-top: 35px;
+        padding-bottom: 35px;
     }
 
     .PartyTime{
         background-color: red;
-        padding-left: 60px;
-        padding-right: 60px;
-        padding-top: 30px;
-        padding-bottom: 28px;
+        padding-left: 90px;
+        padding-right: 90px;
+        padding-top: 35px;
+        padding-bottom: 35px;
+        color: white;
+    }
+
+    #foodtopimages{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .bckbreakfast{
+        text-align: center;
+        padding-top: 75px;
+        font-size: 28px;
+        color: white;
+        font-family: serif;
+        font-style: italic;
+    }
+
+    .bcklunch{
+        text-align: center;
+        padding-top: 75px;
+        font-size: 28px;
+        color: white;
+        opacity: 0.3;
+        font-family: serif;
+        font-style: italic;
+    }
+
+    .bckdinner{
+        text-align: center;
+        padding-top: 75px;
+        font-size: 28px;
+        color: white;
+        font-family: serif;
+        font-style: italic;
+    }
+
+    .bckbreakfast{
+        background-image: url(Images/foodtop/breakfast.jpg);
+        background-repeat: no-repeat;
+        width: 350px;
+    }
+
+    .bcklunch{
+        background-image: url(Images/foodtop/lunch.jpg);
+        background-repeat: no-repeat;
+        width: 350px;
+    }
+
+    .bckdinner{
+        background-image: url(Images/foodtop/dinner.jpg);
+        background-repeat: no-repeat;
+        width: 350px;
     }
 
     #fastfoodimages{
@@ -74,7 +126,7 @@
     .drinks{
         column-count: 2;
         margin-top: 40px;
-        margin-bottom: 20px;
+        margin-bottom: 50px;
         margin-left: 20%;
         margin-right: 20%;
         font-size: 20px;
@@ -111,7 +163,7 @@
        padding-top: 100px;
        color: white;
        opacity: 0.7;
-       margin-bottom: 40px;
+       margin-bottom: 80px;
    }
 
 
@@ -123,7 +175,7 @@
    #foodtype{
        margin: auto;
        width: 100%;
-       margin-bottom: 15px;
+       margin-bottom: 10px;
        border-collapse: collapse;
    }
 
@@ -143,7 +195,7 @@
        background-color: whitesmoke;
        margin: 0px 70px 0px 70px;
        padding-top: 0px;
-       padding-bottom: 20px;
+       padding-bottom: 15px;
        border-radius: 5px;
    }
 
@@ -154,6 +206,7 @@
         color: tomato;
         font-size: 18px;
         font-weight: 600;
+        padding-bottom: 0px;
     }
 
    #typerow>td:first-child{
@@ -169,7 +222,7 @@
        width: 50%;
        margin-bottom: 40px;
        column-rule: 1px solid lightgray;
-       padding: 5px;
+       padding: 15px;
        text-align: center;
    }
 
@@ -178,5 +231,68 @@
        font-weight: 700;
        color: tomato;
    }
+
+   #happycustomer{
+       
+   }
+
+   .happycustomertext{
+       height: 200px;
+   }
+
+   .subscribeimg{
+       background-image: url(Images/Backgrounds/subscribe.jpg);
+       margin: auto;
+       margin-left: 15%;
+       margin-right: 15%;
+       text-align: center;
+       height: 250px;
+       padding: 8px;
+   }
+
+   .subscribe{
+       font-size: 40px;
+       color: white;
+   }
+
+   #sub{
+       display: flex;
+       flex-direction: row;
+       padding: 0px;
+   }
+
+   #textinput{
+       margin-left: 450px;
+       margin-right: 25px;
+       font-size: 20px;
+       opacity: 0.4;
+       color: black;
+       height: 30px;
+       padding: 5px;
+       border-radius: 3px;
+   }
+
+   #subtn{
+       background-color: tomato;
+       border-radius: 4px;
+       padding-left: 15px;
+       padding-right: 15px;
+       padding-top: 5px;
+       padding-bottom: 5px;
+       font-size: 20px;
+   }
+
+   .footer{
+       height: 250px;
+       width: 1275px;
+       background-color: tomato;
+       margin: auto;
+       text-align: center;
+   }
+
+   #footerlogo{
+       padding: 30px;
+   }
+
 
 }

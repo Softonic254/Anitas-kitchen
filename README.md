@@ -17,6 +17,6 @@ To acces this project, you need to clone it using these steps
 2. CSS
 3. Git
 ### Live Site
-View [live](https://softonic254.github.io/My-Favorite-Band-Project/)
+View [live](https://softonic254.github.io/Anitas-kitchen/)
 ### Licence
 This project is under the  [MIT](LICENCE) licence.

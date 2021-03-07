@@ -1,9 +1,8 @@
-@media only screen and (min-width:10px){
-    *{
+    * {
         font-family: serif;
     }
 
-    .main{
+    .main {
         margin-left: 5%;
         margin-right: 5%;
     }
@@ -14,85 +13,85 @@
         margin: 50px auto;
         padding: 8px 10px;
         transition: all 0.5s;
-       -webkit-transition: all 0.5s;
-       float: left;
-       margin-left: 330px;
+        -webkit-transition: all 0.5s;
+        float: left;
+        margin-left: 330px;
     }
 
-    .navbar div{
+    .navbar div {
         height: 5px;
         background: #fff;
         margin: 7px 0px 7px 0px;
         border-radius: 25px;
         transition: all 0.5s;
-       -webkit-transition: all 0.5s;
+        -webkit-transition: all 0.5s;
     }
 
-    .navbar div{
+    .navbar div {
         height: 5px;
         width: 50px;
         background: #fff;
         margin: 7px 0px 7px 0px;
         border-radius: 25px;
         transition: all 0.5s;
-       -webkit-transition: all 0.5s;
+        -webkit-transition: all 0.5s;
     }
 
-    .navbar div{
+    .navbar div {
         height: 5px;
         width: 40px;
         background: #fff;
         margin: 7px 0px 7px 0px;
         border-radius: 25px;
         transition: all 0.5s;
-       -webkit-transition: all 0.5s;
+        -webkit-transition: all 0.5s;
     }
 
     .navbar:hover div {
         width: 60px;
     }
 
-    .title{
+    .title {
         background-image: url(Images/Backgrounds/landing.jpg);
         background-position: center;
         background-repeat: no-repeat;
     }
 
-    .logoBig{
+    .logoBig {
         margin-left: -330px;
     }
 
-    .layouttitle{
+    .layouttitle {
         display: flex;
         margin-top: 20px;
     }
 
-    .logopic{
+    .logopic {
         text-align: center;
         padding: 35px;
         color: white;
         /* font-weight: 300; */
     }
 
-    .logopic>p{
+    .logopic>p {
         font-size: 38px;
         font-family: cursive;
         font-weight: 100;
     }
 
-    #divtext{
+    #divtext {
         display: flex;
         flex-direction: row;
-        margin-left: 118px;
+        margin-left: 7.3%;
     }
 
-    .happyhrtext{
+    .happyhrtext {
         font-size: 30px;
         font-weight: 300;
         letter-spacing: 1px;
     }
 
-    .HappyHour{
+    .HappyHour {
         background-color: lightgray;
         text-align: center;
         padding-left: 98px;
@@ -101,7 +100,7 @@
         padding-bottom: 35px;
     }
 
-    .PartyTime{
+    .PartyTime {
         background-color: #F15A29;
         padding-left: 98px;
         padding-right: 98px;
@@ -110,12 +109,12 @@
         color: white;
     }
 
-    #foodtopimages{
+    #foodtopimages {
         display: flex;
         flex-direction: row;
     }
 
-    .bckbreakfast{
+    .bckbreakfast {
         text-align: center;
         padding-top: 75px;
         font-size: 28px;
@@ -124,7 +123,7 @@
         font-style: italic;
     }
 
-    .bcklunch{
+    .bcklunch {
         text-align: center;
         padding-top: 75px;
         font-size: 28px;
@@ -134,7 +133,7 @@
         font-style: italic;
     }
 
-    .bckdinner{
+    .bckdinner {
         text-align: center;
         padding-top: 75px;
         font-size: 28px;
@@ -143,25 +142,25 @@
         font-style: italic;
     }
 
-    .bckbreakfast{
+    .bckbreakfast {
         background-image: url(Images/foodtop/breakfast.jpg);
         background-repeat: no-repeat;
         width: 350px;
     }
 
-    .bcklunch{
+    .bcklunch {
         background-image: url(Images/foodtop/lunch.jpg);
         background-repeat: no-repeat;
         width: 350px;
     }
 
-    .bckdinner{
+    .bckdinner {
         background-image: url(Images/foodtop/dinner.jpg);
         background-repeat: no-repeat;
         width: 350px;
     }
 
-    #fastfoodimages{
+    #fastfoodimages {
         display: flex;
         flex-direction: column;
         text-align: center;
@@ -169,7 +168,7 @@
         padding: 15px;
     }
 
-    #ffood{
+    #ffood {
         column-count: 2;
         margin-top: 4%;
         margin-left: 20%;
@@ -178,12 +177,12 @@
         /* display: flex; */
     }
 
-    .fastfoodtext{
+    .fastfoodtext {
         height: 400px;
         margin-left: 30px;
     }
 
-    .drinks{
+    .drinks {
         column-count: 2;
         margin-top: 40px;
         margin-bottom: 50px;
@@ -192,31 +191,31 @@
         font-size: 20px;
     }
 
-   #drinkstext{
-       text-align: right;
-       height: 450px;
-       margin-right: 30px;
-   }
+    #drinkstext {
+        text-align: right;
+        height: 450px;
+        margin-right: 30px;
+    }
 
-   #drinkstext>h6{
-       border: 1px solid #F15A29;
-       border-radius: 3px;
-       color: #F15A29;
-       padding-top: 8px;
-       padding-bottom: 8px;
-       width: 40%;
-       text-align: center;
-       padding-left: 15px;
-       padding-right: 35px;
-       float: right;
-       font-size: 23px;
-       text-transform: capitalize;
-       font-weight: 500;
-       font-family: cursive;
-       box-shadow: 0px 0px 1px 1px #F15A29;
-   }
+    #drinkstext>h6 {
+        border: 1px solid #F15A29;
+        border-radius: 3px;
+        color: #F15A29;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        width: 40%;
+        text-align: center;
+        padding-left: 15px;
+        padding-right: 35px;
+        float: right;
+        font-size: 23px;
+        text-transform: capitalize;
+        font-weight: 500;
+        font-family: cursive;
+        box-shadow: 0px 0px 1px 1px #F15A29;
+    }
 
-    .fastfoodtext>h6{
+    .fastfoodtext>h6 {
         border: 1px solid #F15A29;
         border-radius: 3px;
         color: #F15A29;
@@ -235,91 +234,89 @@
         box-shadow: 0px 0px 1px 1px #F15A29;
     }
 
-   .drinksimages{
-       padding: 20px;
-       box-shadow: 0px 0px 3px 3px lightgray;
-   }
+    .drinksimages {
+        padding: 20px;
+        box-shadow: 0px 0px 3px 3px lightgray;
+    }
 
-   .spanimages{
-       background-image: url(Images/Backgrounds/foodsBg.jpg);
-       margin-left: 15%;
-       margin-right: 15%;
-       text-align: center;
-       height: 420px;
-       margin-top: 0px;
-       padding-top: 80px;
-       color: white;
-       opacity: 0.7;
-       margin-bottom: 50px;
-   }
+    .spanimages {
+        background-image: url(Images/Backgrounds/foodsBg.jpg);
+        margin-left: 15%;
+        margin-right: 15%;
+        text-align: center;
+        height: 420px;
+        margin-top: 0px;
+        padding-top: 80px;
+        color: white;
+        opacity: 0.7;
+        margin-bottom: 50px;
+    }
 
+    #typerow {
+        text-align: center;
+        padding: 0px;
+    }
 
+    #foodtype {
+        margin: auto;
+        width: 100%;
+        margin-bottom: 10px;
+        border-collapse: collapse;
+        border-radius: 4px;
+    }
 
-   #typerow{
-       text-align: center;
-       padding: 0px;
-   }
+    #typerow>td {
+        background-color: lightgray;
+        border-collapse: collapse;
+        border-left: 1px solid rgb(170, 169, 169);
+        border-bottom: 1px solid rgb(170, 169, 169);
+        padding: 8px;
+        font-size: 20px;
+        color: black;
+        font-weight: 600;
+        height: 40px;
+    }
 
-   #foodtype{
-       margin: auto;
-       width: 100%;
-       margin-bottom: 10px;
-       border-collapse: collapse;
-       border-radius: 4px;
-   }
+    .table {
+        background-color: whitesmoke;
+        margin: 0px 70px 0px 70px;
+        padding-top: 0px;
+        padding-bottom: 15px;
+        border-radius: 5px;
+    }
 
-   #typerow>td{
-       background-color: lightgray;
-       border-collapse: collapse;
-       border-left: 1px solid rgb(170, 169, 169);
-       border-bottom: 1px solid rgb(170, 169, 169);
-       padding: 8px;
-       font-size: 20px;
-       color: black;
-       font-weight: 600;
-       height: 40px;
-   }
+    .arrow {
+        border: solid #F15A29;
+        border-width: 0 5px 5px 0;
+        display: inline-block;
+        padding: 5px;
+        margin: auto;
+        padding-right: 1px;
+    }
 
-   .table{
-       background-color: whitesmoke;
-       margin: 0px 70px 0px 70px;
-       padding-top: 0px;
-       padding-bottom: 15px;
-       border-radius: 5px;
-   }
+    .right {
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+    }
 
-   .arrow {
-    border: solid #F15A29;
-    border-width: 0 5px 5px 0;
-    display: inline-block;
-    padding: 5px;
-    margin: auto;
-    padding-right: 1px;
-  }
-  
-  .right {
-    transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg);
-  }
+    .arrow1 {
+        border: solid #F15A29;
+        border-width: 0 5px 5px 0;
+        display: inline-block;
+        padding: 5px;
+        margin: auto;
+        padding-right: 1px;
+    }
 
-  .arrow1 {
-    border: solid #F15A29;
-    border-width: 0 5px 5px 0;
-    display: inline-block;
-    padding: 5px;
-    margin: auto;
-    padding-right: 1px;
-  }
-  
-  .right1 {
-    transform: rotate(90deg);
-    -webkit-transform: rotate(9120deg);
-  }
+    .right1 {
+        transform: rotate(90deg);
+        -webkit-transform: rotate(9120deg);
+    }
 
-  #arrow{
-      display: flex;
-      margin: 5px;
-  }
+    #arrow {
+        display: flex;
+        margin: 5px;
+    }
 
     #burger {
         columns: 3;
@@ -332,170 +329,197 @@
         padding-top: 8px;
     }
 
-   #typerow>td:first-child{
-       background-color: whitesmoke;
-       color: #F15A29;
-       border-bottom: 0px;
-       border-left: 0px;
-       border-radius: 3px;
-   }
+    #typerow>td:first-child {
+        background-color: whitesmoke;
+        color: #F15A29;
+        border-bottom: 0px;
+        border-left: 0px;
+        border-radius: 3px;
+    }
 
-   #typerow>td:last-child{
-       border-right: 0px;
-       border-radius: 3px;
-   }
+    #typerow>td:last-child {
+        border-right: 0px;
+        border-radius: 3px;
+    }
 
-   .happy{
-       columns: 2;
-       box-shadow: 0 0 3px 4px lightgray;
-       margin: auto;
-       width: 50%;
-       margin-bottom: 40px;
-       column-rule: 1px solid lightgray;
-       padding: 15px;
-       text-align: center;
-   }
+    .happy {
+        columns: 2;
+        box-shadow: 0 0 3px 4px lightgray;
+        margin: auto;
+        width: 50%;
+        margin-bottom: 40px;
+        column-rule: 1px solid lightgray;
+        padding: 15px;
+        text-align: center;
+    }
 
-   #happycustomer> h4{
-       font-size: 20px;
-       font-weight: 600;
-       color: #F15A29;
-       font-family: cursive;
-       padding: 0px;
-       column-span: 70%;
-   }
+    #happycustomer>h4 {
+        font-size: 20px;
+        font-weight: 600;
+        color: #F15A29;
+        font-family: cursive;
+        padding: 0px;
+        column-span: 70%;
+    }
 
-   #happycustomer>h6{
-       font-size: 16px;
-       padding: 0px;
-   }
+    #happycustomer>h6 {
+        font-size: 16px;
+        padding: 0px;
+    }
 
-   .happycustomertext>h4{
-       color: #F15A29;
-       font-size: 20px;
-       padding-top: 20px;
-       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-       font-weight: 700;
-   }
+    .happycustomertext>h4 {
+        color: #F15A29;
+        font-size: 20px;
+        padding-top: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 700;
+    }
 
-   .happycustomertext{
-       height: 200px;
-   }
+    .happycustomertext {
+        height: 200px;
+    }
 
-   .subscribeimg{
-       background-image: url(Images/Backgrounds/subscribe.jpg);
-       margin: auto;
-       margin-left: 10%;
-       margin-right: 10%;
-       text-align: center;
-       height: 250px;
-       display: flex;
-       flex-direction: column;
-       padding: 8px;
-   }
+    .subscribeimg {
+        background-image: url(Images/Backgrounds/subscribe.jpg);
+        margin: auto;
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align: center;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        padding: 8px;
+    }
 
-   .subscribe{
-       font-size: 40px;
-       color: white;
-       padding-top: 50px;
-   }
+    .subscribe {
+        font-size: 40px;
+        color: white;
+        padding-top: 50px;
+    }
 
-   #sub{
-       display: flex;
-       flex-direction: row;
-       padding: 0px;
-   }
+    #sub {
+        display: flex;
+        flex-direction: row;
+        padding: 0px;
+        margin-left: 31%;
+    }
 
-   #textinput{
-       margin-left: 390px;
-       margin-right: 40px;
-       font-size: 20px;
-       opacity: 0.3;
-       color: black;
-       height: 25px;
-       padding: 8px 40px 8px 5px;
-       border-radius: 4px;
-   }
+    #textinput {
+        margin-right: 40px;
+        font-size: 20px;
+        opacity: 0.3;
+        color: black;
+        height: 25px;
+        padding: 8px 40px 8px 5px;
+        border-radius: 4px;
+    }
 
-   #sub > div > ::placeholder{
-       font-family: fantasy;
-   }
+    #sub>div> ::placeholder {
+        font-family: fantasy;
+    }
 
-   #subtn{
-       background-color: #F15A29;
-       border-radius: 4px;
-       padding-left: 35px;
-       padding-right: 35px;
-       padding-top: 8px;
-       padding-bottom: 8px;
-       font-size: 20px;
-       color: white;
-       border: none;
-   }
+    #subtn {
+        background-color: #F15A29;
+        border-radius: 4px;
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        font-size: 20px;
+        color: white;
+        border: none;
+    }
 
-   .footer{
-       background-color: #F15A29;
-       margin: auto;
-       text-align: center;
-       color: white;
-       margin-bottom: 50px;
-       padding-bottom: 20px;
-       margin-left: 10%;
-       margin-right: 10%;
-   }
+    .footer {
+        background-color: #F15A29;
+        margin: auto;
+        text-align: center;
+        color: white;
+        margin-bottom: 50px;
+        padding-bottom: 20px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
 
-   #footerlogo{
-       padding: 0px;
-       column-count: 2;
-       padding-top: 3%;
-       width: fit-content;
-       text-align: center;
-       margin-left: 450px;
-   }
+    #footerlogo {
+        padding: 0px;
+        column-count: 2;
+        padding-top: 3%;
+        width: fit-content;
+        text-align: center;
+        margin-left: 450px;
+    }
 
-   #footerlogo:first-child{
-       height: 80px;
-   }
+    #footerlogo:first-child {
+        height: 80px;
+    }
 
-   #menutext{
+    #menutext {
         font-size: 50px;
         color: white;
         font-family: serif;
         font-weight: 500;
         margin-left: 0px;
-   }
+    }
 
-   h3{
-       font-family: cursive;
-       font-size: 40px;
-   }
+    h3 {
+        font-family: cursive;
+        font-size: 40px;
+    }
 
-   h4{
-       font-size: 25px;
-       font-family: cursive;
-       font-weight: 600;
-   }
+    h4 {
+        font-size: 25px;
+        font-family: cursive;
+        font-weight: 600;
+    }
 
-   p{
-       font-family: Arial, Helvetica, sans-serif;
-       font-size: 18px;
-   }
+    p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+    }
 
-   .subscribe > p{
-       font-size: 25px;
-       font-family: serif;
-       font-weight: 500;
-   }
+    .subscribe>p {
+        font-size: 25px;
+        font-family: serif;
+        font-weight: 500;
+    }
 
-   .footer>.we{
-       font-family: cursive;
-       font-size: 18px;
-   }
+    .footer>.we {
+        font-family: cursive;
+        font-size: 18px;
+    }
 
-   .footer>#menures{
+    .footer>#menures {
         font-size: 13px;
         font-family: cursive;
         padding-top: 10px;
-   }
+    }
 
-}
+    @media only screen and (max-width:900px) {
+        element.style {}
+        .main {
+            margin-left: 5%;
+            margin-right: 5%;
+            float: none;
+        }
+        * {
+            font-family: serif;
+        }
+        div {
+            display: block;
+        }
+        #foodtype{
+            width: 90%;
+            float: none;
+        }
+        .layouttitle{
+            float: none;
+        }
+
+        #divtext{
+            width: 100%;
+            display: block;
+            text-align: center;
+            float: none;
+        }
+    }
